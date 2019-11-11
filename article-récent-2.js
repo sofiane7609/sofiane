@@ -27,7 +27,7 @@ function showrecentpostswiththumbs(json) {
             d = s.substr(b + 5, c - b - 5);
             if ((a != -1) && (b != -1) && (c != -1) && (d != "")) {
                 thumburl = d;
-            } else thumburl = 'https://www.webaholic.co.in/other/no-image.jpg';
+            } else thumburl = '';
         }
         var postdate = entry.published.$t;
         var cdyear = postdate.substring(0, 4);
